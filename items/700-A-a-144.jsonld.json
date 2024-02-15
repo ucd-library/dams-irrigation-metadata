@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Photograph",
+    "schema:ImageObject",
+    "schema:CreativeWork",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-144.tif"
+  },
+  "schema:creator": "Hutchins, Wells A.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1915-08-25"
+  },
+  "schema:description": "These dams are placed at intervals of about 80 feet in furrows in a strawberry field where the furrows are given any grade. Their purpose is to hold back the irrigation water and thus to permit of an adequate irrigation at the upper ends of the furrows as well as at the lower ends. The reason for laying the furrows on a grade is to permit rain water to run off in the winter where the soil is so heavy that it does not absorb rain water as it falls. Otherwise the water would flood over the berry vines and injure them. these dams are of earth and are covered with cloth or paper to prevent their washing away. These excess water flows over the dam into the next section below.",
+  "schema:identifier": [
+    "ark:/87293/d3wr03",
+    "AR-058, Box:Folder, 1:2"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-144.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative, 2 prints",
+  "schema:name": "Dam in Strawberry Furrow, Pajaro Valley, California",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections"
+}

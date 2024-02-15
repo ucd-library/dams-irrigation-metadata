@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:ImageObject",
+    "schema:Photograph",
+    "schema:CreativeWork",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-N-a-19.tif"
+  },
+  "schema:creator": "Weston, E. for J.E. Christiansen",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1929-09"
+  },
+  "schema:description": "Slide no. 719",
+  "schema:identifier": [
+    "AR-058, Box:Folder, 25:33",
+    "ark:/87293/d3k77s"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-N-a-19.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative",
+  "schema:name": "Gopher type field gate",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections"
+}

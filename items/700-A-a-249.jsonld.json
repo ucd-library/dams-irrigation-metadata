@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Photograph",
+    "schema:ImageObject",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-249.tif"
+  },
+  "schema:creator": "Tait, C.E.",
+  "schema:description": "Picture taken after raising height of dam.",
+  "schema:identifier": [
+    "AR-058, Box:Folder, 3:13",
+    "ark:/87293/d37n2x"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-249.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative",
+  "schema:name": "Water Pouring Over Sweet Water Dam After Raising about 1911. California.",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections",
+  "schema:temporal": "undated"
+}

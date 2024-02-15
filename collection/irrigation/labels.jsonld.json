@@ -1,0 +1,32 @@
+[
+  {
+    "@id": "",
+    "@context": {
+      "ucdlib": "http://digital.ucdavis.edu/schema#"
+    },
+    "@type": [
+      "ucdlib:LabelService",
+      "ucdlib:Service"
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/0979502",
+    "http://schema.org/name": "Irrigation"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1171690",
+    "http://schema.org/name": "Water districts"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1171955",
+    "http://schema.org/name": "Water resources development"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204928",
+    "http://schema.org/name": "California"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1853561",
+    "http://schema.org/name": "University of California, Davis. Department of Land, Air, and Water Resources"
+  }
+]

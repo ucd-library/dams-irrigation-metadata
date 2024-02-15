@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Photograph",
+    "schema:CreativeWork",
+    "schema:ImageObject",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-163.tif"
+  },
+  "schema:creator": "Hutchins, Wells A.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1914-11-28"
+  },
+  "schema:description": "This is located at the first riffle in Cache Creek after leaving Clear Lake. The dam was completed October 1, 1914, at a cost of $80,000. The dam has 15 gates capable of discharging 12,000 cubic feet per second. On the right is the gate leading to the tunnel which is intended to supply water for power purposes lower down on Cache Creek.",
+  "schema:identifier": [
+    "AR-058, Box:Folder, 1:21",
+    "ark:/87293/d3fn2s"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-163.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative, 1 print",
+  "schema:name": "Clear Lake Impounding Dam, Yolo Water & Power Co., near Lower Lake, Cal.",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections"
+}

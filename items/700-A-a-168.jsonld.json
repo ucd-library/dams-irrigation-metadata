@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Photograph",
+    "schema:CreativeWork",
+    "schema:ImageObject",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-168.tif"
+  },
+  "schema:creator": "Adams, Frank",
+  "schema:description": "This is a hydraulic filled dam, situated at the edge of San Fernando Valley, near San Fernando, on the line of the Los Angeles aqueduct. Water enters the reservoir from the aqueduct through a spillway on the left, not shown in the picture. A division box is located at the spillway and from that the main pipe line for the Los Angeles city supply passes through the left-hand tower. Water can also be taken into this pipe from the reservoir through the left-hand tower. The right-hand tower is the outlet to the San Fernando Irrigation District.",
+  "schema:identifier": [
+    "ark:/87293/d3st98",
+    "AR-058, Box:Folder, 1:26"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-168.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative, 1 print",
+  "schema:name": "San Fernando Dam, Cal., Showing Outlet Towers.",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections",
+  "schema:temporal": "undated"
+}

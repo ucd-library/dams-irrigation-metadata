@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:ImageObject",
+    "schema:CreativeWork",
+    "schema:Photograph",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-157.tif"
+  },
+  "schema:creator": "Hutchins, Wells A.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1915-12-05"
+  },
+  "schema:description": "On the right is shown the end of the hydraulicking flume. A portion of the concrete side lining in course of construction is shown in the distance adjoining the lining of the canal beyond the fill. The contract price of hydraulicking this fill was 24-1/2 cents per cubic yard for about 36,000 cubic yards of fill.",
+  "schema:identifier": [
+    "AR-058, Box:Folder, 1:15",
+    "ark:/87293/d37180"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-157.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative, 1 print",
+  "schema:name": "Indian Hill Hydraulic Fill, Modesto Irrigation District, Cal.",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections"
+}

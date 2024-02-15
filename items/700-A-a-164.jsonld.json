@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject",
+    "schema:Photograph",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/700-A-a-164.tif"
+  },
+  "schema:creator": "Hutchins, Wells A.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1914-11-28"
+  },
+  "schema:description": "This view represents the south end of this impounding dam. This picture and Pictures Nos. 166 & 167 form a panorama. For description of the dam see Picture No. 163. The picture was taken from the lower side.",
+  "schema:identifier": [
+    "AR-058, Box:Folder, 1:22",
+    "ark:/87293/d39t9x"
+  ],
+  "schema:image": {
+    "@id": "@base:/700-A-a-164.tif"
+  },
+  "schema:isPartOf": {
+    "@id": "https://oac.cdlib.org/findaid/ark:/13030/c8f76gzk/"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:material": "1 negative, 2 prints",
+  "schema:name": "Part of Clear Lake Dam, Yolo Water and Power Company, near Lower Lake, California.",
+  "schema:publisher": "UC Davis Library, Archives and Special Collections"
+}
